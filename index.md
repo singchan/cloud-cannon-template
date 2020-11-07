@@ -1,9 +1,6 @@
 ---
-layout: home
-author: Test me here
-description: |-
+layout: home-page
+hero-text_html: |-
   aaaa
   bbbb
 ---
-
-Test
