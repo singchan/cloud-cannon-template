@@ -96,7 +96,7 @@
         </div>
     </section>
     <section data-silex-type="container-element" class="container-element editable-style silex-id-1478366444112-1 section-element show-when-not-active prevent-resizable" style="">
-        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width" style=""><a href="home-page.html" data-silex-type="image-element" class="editable-style silex-id-1496137172968-2 image-element page-link-active"><img src="{{ site.url }}{{ site.baseurl }}/assets/logo.png" class=""></a><div data-silex-type="container-element" class="editable-style silex-id-1545060115782-18 container-element hide-on-desktop" style=""></div>
+        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width" style=""><a href="home-page.html" data-silex-type="image-element" class="editable-style silex-id-1496137172968-2 image-element page-link-active"><img src="{{ site.url }}{{ site.baseurl }}/assets/{{site.logo}}"></a><div data-silex-type="container-element" class="editable-style silex-id-1545060115782-18 container-element hide-on-desktop" style=""></div>
 
 
 
@@ -129,19 +129,19 @@
 
         <div data-silex-type="html-element" class="editable-style silex-id-1496162471647-9 html-element silex-component silex-component-share" style="">
                 <div class="silex-element-content">
-<ul class="share-buttons" id="id_1604750919172_644">
+<ul class="share-buttons" id="id_1604751079092_287">
   
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com&amp;t=Your site title" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="{{ site.url }}{{ site.baseurl }}/assets/Facebook.png"></a></li>
-  
-  
-  <li><a href="https://twitter.com/intent/tweet?source=http://yoursite.com&amp;text=Your site title:%20http://yoursite.com&amp;via=silexlabs" target="_blank" title="Share on Twitter"><img alt="Twitt" src="{{ site.url }}{{ site.baseurl }}/assets/Twitter.png"></a></li>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}&amp;t=Your site title" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="{{ site.url }}{{ site.baseurl }}/assets/Facebook.png"></a></li>
   
   
+  <li><a href="https://twitter.com/intent/tweet?source={{ site.url }}{{ site.baseurl }}&amp;text=Your site title:%20{{ site.url }}{{ site.baseurl }}&amp;via={{site.twitter}}" target="_blank" title="Share on Twitter"><img alt="Twitt" src="{{ site.url }}{{ site.baseurl }}/assets/Twitter.png"></a></li>
   
-  <li><a href="http://www.tumblr.com/share?v=3&amp;u=http://yoursite.com&amp;t=Your site title&amp;s=" target="_blank" title="Post to Tumblr"><img alt="Post to Tumblr" src="{{ site.url }}{{ site.baseurl }}/assets/Tumblr.png"></a></li>
   
   
-  <li><a href="http://pinterest.com/pin/create/button/?url=http://yoursite.com&amp;description=Your site description" target="_blank" title="Pin it"><img alt="Pin it" src="{{ site.url }}{{ site.baseurl }}/assets/Pinterest.png"></a></li>
+  <li><a href="http://www.tumblr.com/share?v=3&amp;u={{ site.url }}{{ site.baseurl }}&amp;t=Your site title&amp;s=" target="_blank" title="Post to Tumblr"><img alt="Post to Tumblr" src="{{ site.url }}{{ site.baseurl }}/assets/Tumblr.png"></a></li>
+  
+  
+  <li><a href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ site.baseurl }}&amp;description=Your site description" target="_blank" title="Pin it"><img alt="Pin it" src="{{ site.url }}{{ site.baseurl }}/assets/Pinterest.png"></a></li>
   
   
   
@@ -151,17 +151,10 @@
   
 </ul>
 
-<style type="text/css">#id_1604750919172_644.share-buttons {list-style: none; padding: 0;}#id_1604750919172_644.share-buttons li {display: inline;}#id_1604750919172_644.share-buttons .sr-only {position: absolute; clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden;}</style>
+<style type="text/css">#id_1604751079092_287.share-buttons {list-style: none; padding: 0;}#id_1604751079092_287.share-buttons li {display: inline;}#id_1604751079092_287.share-buttons .sr-only {position: absolute; clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden;}</style>
 </div>
             </div><div data-silex-type="text-element" class="editable-style silex-id-1496136970330-0 text-element header" style="">
-                <div class="silex-element-content normal">
-                    <h1>Welcome to Creative Peter's home</h1>
-
-                        <p>
-                            Ground round ham hock ut leberkas salami. Frankfurter cow lorem laboris reprehenderit flank pork belly ut capicola beef shankle bacon labore in. Bresaola fugiat leberkas, doner strip steak anim reprehenderit id sirloin.&nbsp;
-                        </p>
-
-                </div>
+                <div class="silex-element-content normal">{{page.hero-text_html}}</div>
             </div></div>
     </section>
 
@@ -212,86 +205,21 @@
 
 
     <section data-silex-type="container-element" class="container-element editable-style silex-id-1496148764365-5 section-element prevent-resizable page-home-page paged-element paged-element-visible" style="">
-        <div data-silex-type="container-element" class="editable-style silex-id-1496148764363-4 container-element silex-element-content website-width" style="width: 1000px; min-height: 1129px; border-left-width: 1px; border-right-width: 1px;">
-            <div data-silex-type="container-element" class="editable-style silex-id-1496166951111-22 container-element thumb from-bottom" style="">
-                <a href="product-details.html" data-silex-type="text-element" class="editable-style silex-id-1496167267077-28 text-element style-tiles" style="">
-                    <div class="silex-element-content normal">
-                        <h3><br></h3><h3><br></h3><h3>Ut veniam in</h3>
-                        <p>view details</p>
-                    </div>
-                </a>
-            </div>
-            <div data-silex-type="container-element" class="editable-style container-element silex-id-1496166978739-23 thumb from-bottom" style="">
+        <div data-silex-type="container-element" class="editable-style silex-id-1496148764363-4 container-element silex-element-content website-width" style="">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        <div data-silex-type="container-element" class="editable-style silex-id-1496166951111-22 container-element thumb from-bottom" style="">
                 
-            <a href="product-details.html" data-silex-type="text-element" class="editable-style text-element silex-id-1496168398768-29 style-tiles" style="">
-                    <div class="silex-element-content normal">
-                        <h3>
-                            <p><br></p><p><br></p><p>Shankle cillum bresaola</p>
-                        </h3>
-                        <p>view details</p>
-                    </div>
-                </a></div>
-            <div data-silex-type="container-element" class="editable-style container-element silex-id-1496166990971-24 thumb from-bottom" style="">
-                <a href="product-details.html" data-silex-type="text-element" class="editable-style text-element silex-id-1496168438145-30 style-tiles" style="">
-                    <div class="silex-element-content normal">
-                        <h3><br></h3><h3><br></h3><h3>Elit irure boudin sed</h3>
-                        <p>view details</p>
-                    </div>
-                </a>
-            </div>
-            <div data-silex-type="container-element" class="editable-style container-element silex-id-1496167019983-25 thumb from-bottom" style="">
-                <a href="product-details.html" data-silex-type="text-element" class="editable-style text-element silex-id-1496168456982-33 style-tiles" style="">
-                    <div class="silex-element-content normal">
-                        <h3><br></h3><h3><br></h3><h3>Elit irure boudin sed</h3>
-                        <p>view details</p>
-                    </div>
-                </a>
-            </div>
-            <div data-silex-type="container-element" class="editable-style container-element silex-id-1496167019994-27 thumb from-bottom" style="">
-                <a href="product-details.html" data-silex-type="text-element" class="editable-style text-element silex-id-1496168453028-32 style-tiles" style="">
-                    <div class="silex-element-content normal">
-                        <h3>
-                            <p><br></p><p><br></p><p>Shankle cillum bresaola</p>
-                        </h3>
-                        <p>view details</p>
-                    </div>
-                </a>
-            </div>
-            <div data-silex-type="container-element" class="editable-style container-element silex-id-1496167019992-26 thumb from-bottom" style="">
-                <a href="product-details.html" data-silex-type="text-element" class="editable-style text-element silex-id-1496168449616-31 style-tiles" style="">
-                    <div class="silex-element-content normal">
-                        <h3><br></h3><h3><br></h3><h3>Ut veniam in</h3>
-                        <p>view details</p>
-                    </div>
-                </a>
-            </div>
-            <div data-silex-type="container-element" class="editable-style container-element silex-id-1496168814589-44 thumb from-bottom" style="">
-                <a href="product-details.html" data-silex-type="text-element" class="editable-style text-element silex-id-1496168814589-45 style-tiles" style="">
-                    <div class="silex-element-content normal">
-                        <h3>
-                            <p><br></p><p><br></p><p>Shankle cillum bresaola</p>
-                        </h3>
-                        <p>view details</p>
-                    </div>
-                </a>
-            </div>
-            <div data-silex-type="container-element" class="editable-style container-element silex-id-1496168814592-46 thumb from-bottom" style="">
-                <a href="product-details.html" data-silex-type="text-element" class="editable-style text-element silex-id-1496168814592-47 style-tiles" style="">
-                    <div class="silex-element-content normal">
-                        <h3><br></h3><h3><br></h3><h3>Elit irure boudin sed</h3>
-                        <p>view details</p>
-                    </div>
-                </a>
-            </div>
-            <div data-silex-type="container-element" class="editable-style container-element silex-id-1496168814577-42 thumb from-bottom" style="">
-                <a href="product-details.html" data-silex-type="text-element" class="editable-style text-element silex-id-1496168814577-43 style-tiles" style="">
-                    <div class="silex-element-content normal">
-                        <h3><br></h3><h3><br></h3><h3>Ut veniam in</h3>
-                        <p>view details</p>
-                    </div>
-                </a>
-            </div>
-        </div>
+            <a href="product-details.html" data-silex-type="text-element" class="editable-style silex-id-1496167267077-28 text-element style-tiles" style="">
+                    <div class="silex-element-content normal"><h3>{{ item.title }}</h3></div>
+                </a></div></div>
     </section>
 
 
